@@ -261,3 +261,26 @@ footer {
         gap: 1.5rem;
     }
 }
+
+/* Vaklaf interjection */
+.interjection {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    border-top: 2px solid #e74c3c;
+    border-bottom: 2px solid #e74c3c;
+    text-align: center;
+    font-style: italic;
+    background: #fff;
+}
+.interjection blockquote {
+    font-size: 1.15rem;
+    margin: 0.8rem 0;
+    color: #333;
+}
+.interjection .signature {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 0.5rem;
+    font-style: normal;
+}
