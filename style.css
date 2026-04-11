@@ -263,6 +263,33 @@ footer {
 }
 
 /* Vaklaf interjection */
+/* Info box — nature/geology asides */
+.info-box {
+    margin: 1.5rem 0;
+    padding: 1.2rem 1.5rem;
+    background: linear-gradient(135deg, #f0f7f4 0%, #e8f4f0 100%);
+    border-left: 3px solid #2d6a4f;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.7;
+}
+
+.info-box .info-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #2d6a4f;
+    margin-bottom: 0.5rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.info-box p {
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+}
+
 .interjection {
     max-width: 700px;
     margin: 2rem auto;
