@@ -311,3 +311,140 @@ footer {
     margin-top: 0.5rem;
     font-style: normal;
 }
+
+/* Day index (landing page list of days) */
+.days-index {
+    background: #fafafa;
+}
+.days-index-content {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+.days-index h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #0f3460;
+    margin-bottom: 1.5rem;
+}
+.day-card {
+    display: flex;
+    gap: 1.2rem;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.day-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+}
+.day-card-thumb {
+    flex: 0 0 140px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #eee;
+}
+.day-card-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.day-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.day-card-num {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #0f3460;
+    margin-bottom: 0.2rem;
+}
+.day-card-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #0f3460;
+    margin-bottom: 0.3rem;
+}
+.day-card-date {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+.day-card-teaser {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Top nav bar on day pages */
+.top-nav {
+    background: #0f3460;
+    padding: 0.8rem 1.5rem;
+}
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+}
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Simpler hero for day pages */
+.hero-day {
+    height: auto;
+    min-height: 0;
+    padding: 3rem 1.5rem;
+}
+.hero-day h1 {
+    font-size: 2.2rem;
+}
+
+/* Prev/next day nav */
+.day-nav {
+    max-width: 720px;
+    margin: 3rem auto 0;
+    padding: 2rem 1.5rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.day-nav a, .day-nav span {
+    font-size: 0.95rem;
+    color: #0f3460;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+}
+.day-nav a:hover {
+    text-decoration: underline;
+}
+.day-nav .disabled {
+    color: #ccc;
+    cursor: default;
+}
+
+@media (max-width: 600px) {
+    .day-card {
+        flex-direction: column;
+    }
+    .day-card-thumb {
+        flex: 0 0 auto;
+        width: 100%;
+        height: 160px;
+    }
+    .hero-day h1 {
+        font-size: 1.6rem;
+    }
+}
