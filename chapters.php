@@ -43,16 +43,16 @@ return [
         'hero_dates'     => '11.&ndash;12. dubna 2026',
     ],
 
-    'den-3-holy-vodic' => [
+    'den-3-stara-skola' => [
         'layout'         => 'chapter',
         'chapter_label'  => 'Kapitola 3',
-        'title'          => 'Kapitola 3 &mdash; Holý vodič',
+        'title'          => 'Kapitola 3 &mdash; Stará škola',
         'description'    => 'Vajíčkový guru, dvanáct spotů na křivém stropě a holý měděný PE. Návrat na průmyslovku, akorát ve výšce na štaflích.',
-        'og_title'       => 'Kapitola 3 — Holý vodič',
+        'og_title'       => 'Kapitola 3 — Stará škola',
         'og_description' => 'Vajíčkový guru, dvanáct spotů na křivém stropě a holý měděný PE. Návrat na průmyslovku, akorát ve výšce na štaflích.',
-        'og_url'         => 'https://holly382.github.io/za-polarni-kruh/den-3-holy-vodic.html',
+        'og_url'         => 'https://holly382.github.io/za-polarni-kruh/den-3-stara-skola.html',
         'og_type'        => 'article',
-        'hero_h1'        => 'Kapitola 3 &mdash; Holý vodič',
+        'hero_h1'        => 'Kapitola 3 &mdash; Stará škola',
         'hero_subtitle'  => 'Vajíčka &middot; PFXP &middot; Křivý strop &middot; Treska kolo druhé',
         'hero_dates'     => '13. dubna 2026',
     ],
