@@ -34,5 +34,9 @@ if git diff --cached --quiet; then
 else
     git commit -m "Deploy: $(date -u +%Y-%m-%dT%H:%M:%SZ) from $(git -C "$REPO_ROOT" rev-parse --short HEAD)"
     git push -u origin gh-pages
+    if command -v gh >/dev/null 2>&1; then
+        echo "==> Requesting Pages rebuild"
+        gh api -X POST repos/holly382/za-polarni-kruh/pages/builds >/dev/null 2>&1 || true
+    fi
 fi
 echo "==> Done."
