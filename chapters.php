@@ -47,14 +47,14 @@ return [
         'layout'         => 'chapter',
         'chapter_label'  => 'Kapitola 3',
         'title'          => 'Kapitola 3 &mdash; Stará škola',
-        'description'    => 'Vajíčkový guru, dvanáct spotů na křivém stropě a holý měděný PE. Návrat na průmyslovku, akorát ve výšce na štaflích.',
+        'description'    => 'Vajíčkový guru, dvanáct spotů na křivém stropě a holý měděný PE. Pak úterní brigáda dvou elektrikářů a středeční přílet Brothers ze shuttle.',
         'og_title'       => 'Kapitola 3 — Stará škola',
-        'og_description' => 'Vajíčkový guru, dvanáct spotů na křivém stropě a holý měděný PE. Návrat na průmyslovku, akorát ve výšce na štaflích.',
+        'og_description' => 'Vajíčkový guru, dvanáct spotů na křivém stropě a holý měděný PE. Pak úterní brigáda dvou elektrikářů a středeční přílet Brothers ze shuttle.',
         'og_url'         => 'https://holly382.github.io/za-polarni-kruh/den-3-stara-skola.html',
         'og_type'        => 'article',
         'hero_h1'        => 'Kapitola 3 &mdash; Stará škola',
-        'hero_subtitle'  => 'Vajíčka &middot; PFXP &middot; Křivý strop &middot; Treska kolo druhé',
-        'hero_dates'     => '13. dubna 2026',
+        'hero_subtitle'  => 'Vajíčka &middot; PFXP &middot; Křivý strop &middot; Brigáda &middot; Brothers',
+        'hero_dates'     => '13.&ndash;15. dubna 2026',
     ],
 
 ];
