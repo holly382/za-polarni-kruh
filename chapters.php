@@ -57,4 +57,18 @@ return [
         'hero_dates'     => '13.&ndash;15. dubna 2026',
     ],
 
+    'den-4-brothers' => [
+        'layout'         => 'chapter',
+        'chapter_label'  => 'Kapitola 4',
+        'title'          => 'Kapitola 4 &mdash; Brothers',
+        'description'    => 'Everest porada, slivovice do tří ráno, ryby s Brothers a Jumperovo kázání na hoře.',
+        'og_title'       => 'Kapitola 4 — Brothers',
+        'og_description' => 'Everest porada, slivovice do tří ráno, ryby s Brothers a Jumperovo kázání na hoře.',
+        'og_url'         => 'https://holly382.github.io/za-polarni-kruh/den-4-brothers.html',
+        'og_type'        => 'article',
+        'hero_h1'        => 'Kapitola 4 &mdash; Brothers',
+        'hero_subtitle'  => 'Everest &middot; Slivovice &middot; Ryby &middot; Kázání na hoře',
+        'hero_dates'     => '15.&ndash;16. dubna 2026',
+    ],
+
 ];
