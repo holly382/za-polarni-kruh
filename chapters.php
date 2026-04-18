@@ -61,14 +61,14 @@ return [
         'layout'         => 'chapter',
         'chapter_label'  => 'Kapitola 4',
         'title'          => 'Kapitola 4 &mdash; Brothers',
-        'description'    => 'Everest porada, slivovice do tří ráno, ryby s Brothers, Jumperovo kázání na hoře a výšlap na Sørskottinden.',
+        'description'    => 'Everest porada, slivovice do tří ráno, ryby s Brothers, kázání na hoře, Sørskottinden, jeskyně a fine dining.',
         'og_title'       => 'Kapitola 4 — Brothers',
-        'og_description' => 'Everest porada, slivovice do tří ráno, ryby s Brothers, Jumperovo kázání na hoře a výšlap na Sørskottinden.',
+        'og_description' => 'Everest porada, slivovice do tří ráno, ryby s Brothers, kázání na hoře, Sørskottinden, jeskyně a fine dining.',
         'og_url'         => 'https://holly382.github.io/za-polarni-kruh/den-4-brothers.html',
         'og_type'        => 'article',
         'hero_h1'        => 'Kapitola 4 &mdash; Brothers',
-        'hero_subtitle'  => 'Everest &middot; Slivovice &middot; Ryby &middot; Kázání na hoře &middot; Sørskottinden',
-        'hero_dates'     => '15.&ndash;17. dubna 2026',
+        'hero_subtitle'  => 'Everest &middot; Slivovice &middot; Ryby &middot; Kázání &middot; Sørskottinden &middot; Jeskyně &middot; Fine dining',
+        'hero_dates'     => '15.&ndash;18. dubna 2026',
     ],
 
 ];
