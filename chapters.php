@@ -71,4 +71,18 @@ return [
         'hero_dates'     => '15.&ndash;18. dubna 2026',
     ],
 
+    'den-5-cesta-domu' => [
+        'layout'         => 'chapter',
+        'chapter_label'  => 'Kapitola 5',
+        'title'          => 'Kapitola 5 &mdash; Cesta domů',
+        'description'    => 'Poslední ráno na Manshausenu, svačinka na cestu a tři tisíce kilometrů zpátky.',
+        'og_title'       => 'Kapitola 5 — Cesta domů',
+        'og_description' => 'Poslední ráno na Manshausenu, svačinka na cestu a tři tisíce kilometrů zpátky.',
+        'og_url'         => 'https://holly382.github.io/za-polarni-kruh/den-5-cesta-domu.html',
+        'og_type'        => 'article',
+        'hero_h1'        => 'Kapitola 5 &mdash; Cesta domů',
+        'hero_subtitle'  => 'Manshausen &rarr; Bodø &rarr; Oslo &rarr; domů',
+        'hero_dates'     => '19. dubna 2026',
+    ],
+
 ];
