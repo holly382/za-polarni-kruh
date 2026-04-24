@@ -1,2 +1,6 @@
 dist/
 *.bak
+
+# Build artifacts / misdirected writes at repo root
+/index.html
+/data/
